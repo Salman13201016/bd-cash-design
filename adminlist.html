@@ -116,106 +116,42 @@
 			<!-- MAIN CONTENT -->
 			<div class="main-content">
 				<div class="container-fluid">
-					<h3 class="page-title">Elements</h3>
-					<div class="row col-md-8 col-md-offset-2">
+					<h3 class="page-title">Admin List</h3>
+					<div class="row">
 
 						<!-- INPUTS -->
 						<div class="panel">
 							<form>
 								<div class="panel-heading">
-									<h3 class="panel-title">Inputs</h3>
+									<h3 class="panel-title">Admin Details</h3>
 								</div>
 								<div class="panel-body">
 
-									<div class="col-md-6">
-										<div class="form-group">
-											<label for="fullname"  class="control-label">Full Name</label>
-											<input id="fullname" name="fullname" type="text" class="form-control is-invalid" placeholder="Your Full Name">
-										</div>
+									<div class="col-md-12 table-responsive">
 
-										<div class="form-group">
-											<label for="email"  class="control-label">Email</label>
-											<input id="email" name="email" type="text" class="form-control is-invalid" placeholder="Your Email">
-										</div>
-
-										<div class="form-group">
-											<label for="mobile"  class="control-label">Mobile</label>
-											<input id="mobile" name="mobile" type="text" class="form-control is-invalid" placeholder="Your Mobile Number">
-										</div>
-
-										<div class="form-group">
-											<label for="password"  class="control-label">Password</label>
-											<input id="password" name="email" type="password" class="form-control is-invalid" placeholder="Password">
-										</div>
-
-										<div class="form-group">
-											<label for="password_confirmation"  class="control-label">Password Confirm</label>
-											<input id="password_confirmation" name="password_confirmation" type="password" class="form-control is-invalid" placeholder="Confirm Password">
-										</div>
-
-										<div class="form-group">
-											<label for="user_type"  class="control-label">Account Type</label>
-											<select name="user_type" class="form-control">
-												<option value="AG">Agent</option>
-												<option value="PE">Personal</option>
-											</select>
-										</div>
-										
+										<table class="table table-striped">
+											<thead>
+												<tr>
+													<th>Name</th>
+											        <th>Email</th>
+											        <th>Account Type</th>
+											        <th>Country</th>
+											        <th>Account No</th>
+											        <th>Account Opening Date</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>1</td>
+													<td>Steve</td>
+													<td>Jobs</td>
+													<td>@steve</td>
+													<td>Jobs</td>
+													<td>@steve</td>
+												</tr>
+											</tbody>
+										</table>
 									</div>
-
-									<div class="col-md-6">
-										
-										<div class="form-group">
-											<label for="pin"  class="control-label">Pin</label>
-											<input id="pin" name="pin" type="password" class="form-control is-invalid" placeholder="PIN">
-										</div>
-
-										<div class="form-group">
-											<label for="pin_confirmation"  class="control-label">Pin Confirm</label>
-											<input id="pin_confirmation" name="pin_confirmation" type="password" class="form-control is-invalid" placeholder="Confirm PIN">
-										</div>
-
-										<div class="form-group">
-											<label for="country"  class="control-label">Country</label>
-											<select name="country" class="form-control">
-												<option value="cheese">Cheese</option>
-												<option value="tomatoes">Tomatoes</option>
-												<option value="mozarella">Mozzarella</option>
-												<option value="mushrooms">Mushrooms</option>
-												<option value="pepperoni">Pepperoni</option>
-												<option value="onions">Onions</option>
-											</select>
-										</div>
-
-										<div class="form-group">
-											<label for="nationality"  class="control-label">Nationality</label>
-											<select name="nationality" class="form-control">
-												<option value="cheese">Cheese</option>
-												<option value="tomatoes">Tomatoes</option>
-												<option value="mozarella">Mozzarella</option>
-												<option value="mushrooms">Mushrooms</option>
-												<option value="pepperoni">Pepperoni</option>
-												<option value="onions">Onions</option>
-											</select>
-										</div>
-
-										<div class="form-group">
-											<label for="currency"  class="control-label">Currency</label>
-											<select name="cyrrency" class="form-control">
-												<option value="cheese">Cheese</option>
-												<option value="tomatoes">Tomatoes</option>
-												<option value="mozarella">Mozzarella</option>
-												<option value="mushrooms">Mushrooms</option>
-												<option value="pepperoni">Pepperoni</option>
-												<option value="onions">Onions</option>
-											</select>
-										</div>
-
-									</div>
-
-								</div>
-								<div class="panel-footer text-right">
-									<button type="submit" id="btnSave" class="btn btn-success">Create User</button>
 								</div>
 							</form>
 						</div>
