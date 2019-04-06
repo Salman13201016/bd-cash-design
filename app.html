@@ -117,96 +117,108 @@
 			<div class="main-content">
 				<div class="container-fluid">
 					<h3 class="page-title">Elements</h3>
-					<div class="row">
+					<div class="row col-md-8 col-md-offset-2">
 
 						<!-- INPUTS -->
 						<div class="panel">
+							<form>
 							<div class="panel-heading">
 								<h3 class="panel-title">Inputs</h3>
 							</div>
 							<div class="panel-body">
 
 								<div class="col-md-6">
+									<div class="form-group has-error">
+										<label for="fullname"  class="control-label">Full Name</label>
+										<input id="fullname" name="fullname" type="text" class="form-control is-invalid" placeholder="Your Full Name">
+									</div>
+
+									<div class="form-group">
+										<label for="email"  class="control-label">Email</label>
+										<input id="email" name="email" type="text" class="form-control is-invalid" placeholder="Your Full Name">
+									</div>
+
+									<div class="form-group">
+										<label for="mobile"  class="control-label">Mobile</label>
+										<input id="mobile" name="mobile" type="text" class="form-control is-invalid" placeholder="Your Full Name">
+									</div>
+
+									<div class="form-group">
+										<label for="password"  class="control-label">Password</label>
+										<input id="password" name="email" type="password" class="form-control is-invalid" placeholder="Your Full Name">
+									</div>
+
+									<div class="form-group">
+										<label for="password_confirmation"  class="control-label">Password Confirm</label>
+										<input id="password_confirmation" name="password_confirmation" type="password" class="form-control is-invalid" placeholder="Your Full Name">
+									</div>
+
+									<div class="form-group">
+										<label for="user_type"  class="control-label">Account Type</label>
+										<select name="user_type" class="form-control">
+											<option value="AG">Agent</option>
+											<option value="PE">Personal</option>
+										</select>
+									</div>
 									
-									<input type="text" class="form-control" placeholder="text field">
-									<br>
-									<input type="password" class="form-control" value="asecret">
-									<br>
-									<textarea class="form-control" placeholder="textarea" rows="4"></textarea>
-									<br>
-									<select class="form-control">
-										<option value="cheese">Cheese</option>
-										<option value="tomatoes">Tomatoes</option>
-										<option value="mozarella">Mozzarella</option>
-										<option value="mushrooms">Mushrooms</option>
-										<option value="pepperoni">Pepperoni</option>
-										<option value="onions">Onions</option>
-									</select>
-									<br>
-									<label class="fancy-checkbox">
-										<input type="checkbox">
-										<span>Fancy Checkbox 1</span>
-									</label>
-									<label class="fancy-checkbox">
-										<input type="checkbox">
-										<span>Fancy Checkbox 2</span>
-									</label>
-									<label class="fancy-checkbox">
-										<input type="checkbox">
-										<span>Fancy Checkbox 3</span>
-									</label>
-									<br>
-									<label class="fancy-radio">
-										<input name="gender" value="male" type="radio">
-										<span><i></i>Male</span>
-									</label>
-									<label class="fancy-radio">
-										<input name="gender" value="female" type="radio">
-										<span><i></i>Female</span>
-									</label>
 								</div>
 
 								<div class="col-md-6">
 									
-									<input type="text" class="form-control" placeholder="text field">
-									<br>
-									<input type="password" class="form-control" value="asecret">
-									<br>
-									<textarea class="form-control" placeholder="textarea" rows="4"></textarea>
-									<br>
-									<select class="form-control">
-										<option value="cheese">Cheese</option>
-										<option value="tomatoes">Tomatoes</option>
-										<option value="mozarella">Mozzarella</option>
-										<option value="mushrooms">Mushrooms</option>
-										<option value="pepperoni">Pepperoni</option>
-										<option value="onions">Onions</option>
-									</select>
-									<br>
-									<label class="fancy-checkbox">
-										<input type="checkbox">
-										<span>Fancy Checkbox 1</span>
-									</label>
-									<label class="fancy-checkbox">
-										<input type="checkbox">
-										<span>Fancy Checkbox 2</span>
-									</label>
-									<label class="fancy-checkbox">
-										<input type="checkbox">
-										<span>Fancy Checkbox 3</span>
-									</label>
-									<br>
-									<label class="fancy-radio">
-										<input name="gender" value="male" type="radio">
-										<span><i></i>Male</span>
-									</label>
-									<label class="fancy-radio">
-										<input name="gender" value="female" type="radio">
-										<span><i></i>Female</span>
-									</label>
+									<div class="form-group">
+										<label for="pin"  class="control-label">Pin</label>
+										<input id="pin" name="pin" type="password" class="form-control is-invalid" placeholder="Your Full Name">
+									</div>
+
+									<div class="form-group">
+										<label for="pin_confirmation"  class="control-label">Pin Confirm</label>
+										<input id="pin_confirmation" name="pin_confirmation" type="password" class="form-control is-invalid" placeholder="Your Full Name">
+									</div>
+
+									<div class="form-group">
+										<label for="country"  class="control-label">Country</label>
+										<select name="country" class="form-control">
+											<option value="cheese">Cheese</option>
+											<option value="tomatoes">Tomatoes</option>
+											<option value="mozarella">Mozzarella</option>
+											<option value="mushrooms">Mushrooms</option>
+											<option value="pepperoni">Pepperoni</option>
+											<option value="onions">Onions</option>
+										</select>
+									</div>
+
+									<div class="form-group">
+										<label for="nationality"  class="control-label">Nationality</label>
+										<select name="nationality" class="form-control">
+											<option value="cheese">Cheese</option>
+											<option value="tomatoes">Tomatoes</option>
+											<option value="mozarella">Mozzarella</option>
+											<option value="mushrooms">Mushrooms</option>
+											<option value="pepperoni">Pepperoni</option>
+											<option value="onions">Onions</option>
+										</select>
+									</div>
+
+									<div class="form-group">
+										<label for="currency"  class="control-label">Currency</label>
+										<select name="cyrrency" class="form-control">
+											<option value="cheese">Cheese</option>
+											<option value="tomatoes">Tomatoes</option>
+											<option value="mozarella">Mozzarella</option>
+											<option value="mushrooms">Mushrooms</option>
+											<option value="pepperoni">Pepperoni</option>
+											<option value="onions">Onions</option>
+										</select>
+									</div>
+
+									<div class="form-group">
+										<input type="submit" class="btn btn-success" value="Create User">
+									</div>
+
 								</div>
 
 							</div>
+							</form>
 						</div>
 						<!-- END INPUTS -->	
 
